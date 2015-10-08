@@ -318,7 +318,7 @@ if($("#map-canvas-sm").exists()) {
       },
       map = new google.maps.Map(document.getElementById('map-canvas-sm'), mapOptions);
 
-      var image = 'images/marker.png';
+      var image = 'img/marker.png';
       var myLatLng = new google.maps.LatLng(40.756168, -74.178705);
       var beachMarker = new google.maps.Marker({
           position: myLatLng,
